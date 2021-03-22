@@ -74,7 +74,7 @@ Categories=GTK;AudioVideo;Video;
 ```
 
 
-<br/>
+<br> <br/>
 **Parche "xvidcap-1.1.7-ffmpeg-options.patch"**
 
 En el archivo:
@@ -93,7 +93,8 @@ Por esto:
 test x$ac_cv_lib_theora_theora_encode_init = xyes && ac_my_ffmpeg_cfg_lib_switch="${ac_my_ffmpeg_cfg_lib_switch} --enable-libtheora"
 ```
 
-<br/>
+<br> <br/>
+
 **Parche "xvidcap-1.1.7-fix-headers.patch"**
 
 En el archivo:
