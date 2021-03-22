@@ -189,6 +189,8 @@ Quité:
 #include <glib/gerror.h>
 ```
 
+<br> <br/>
+
 **Parche "xvidcap-1.1.7-shmstr.patch"**
 
 En el archivo:
