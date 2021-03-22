@@ -112,3 +112,8 @@ Añadí esto:
 #include <avcodec.h>
 #include <avformat.h>
 ```
+
+<br/>
+En el archivo
+
+/src/main.c

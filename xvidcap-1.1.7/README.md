@@ -27,7 +27,7 @@ Quité:
 AM_PROG_CC_STDC
 ```
 
-
+<br/>
 **Parche "xvidcap-patched-mx19/xvidcap-1.1.7-desktop-entry.patch"**
 
 En el archivo:
@@ -73,7 +73,7 @@ Categories=GTK;AudioVideo;Video;
 ```
 
 
-
+<br/>
 **Parche "xvidcap-1.1.7-ffmpeg-options.patch"**
 
 En el archivo:
@@ -92,7 +92,7 @@ Por esto:
 test x$ac_cv_lib_theora_theora_encode_init = xyes && ac_my_ffmpeg_cfg_lib_switch="${ac_my_ffmpeg_cfg_lib_switch} --enable-libtheora"
 ```
 
-
+<br/>
 **Parche "xvidcap-1.1.7-fix-headers.patch"**
 
 En el archivo:
@@ -112,3 +112,8 @@ Añadí esto:
 #include <avcodec.h>
 #include <avformat.h>
 ```
+
+<br/>
+En el archivo
+
+/src/main.c
