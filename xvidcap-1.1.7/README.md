@@ -186,11 +186,8 @@ y puse:
 En el archivo:
 
 **/src/xvidcap-client-bindings.h**
-
 <br> <br/>
-
 Quité:
-
 ```bat
 #include <glib/gtypes.h>
 #include <glib/gerror.h>

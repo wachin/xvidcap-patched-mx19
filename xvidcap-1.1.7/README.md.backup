@@ -189,8 +189,11 @@ En el archivo:
 
 <br> <br/>
 
-```bat
+Quité:
 
+```bat
+#include <glib/gtypes.h>
+#include <glib/gerror.h>
 ```
 
 ```bat
