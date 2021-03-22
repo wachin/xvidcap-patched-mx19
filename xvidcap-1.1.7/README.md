@@ -27,7 +27,7 @@ Quité:
 AM_PROG_CC_STDC
 ```
 
-<br> <br>
+<br> <br/>
 
 **Parche "xvidcap-patched-mx19/xvidcap-1.1.7-desktop-entry.patch"**
 
