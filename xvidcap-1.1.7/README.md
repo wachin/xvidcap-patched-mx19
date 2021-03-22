@@ -124,7 +124,6 @@ En el archivo
 **/src/main.c**
 
 <br> <br/>
-
 quité:
 
 ```bat
@@ -138,13 +137,11 @@ y puse:
 ```
 
 <br> <br/>
-
 En el archivo:
 
 **/src/xtoffmpeg.c**
 
 <br> <br/>
-
 Quité:
 
 ```bat
@@ -162,7 +159,6 @@ y puse
 ```
 
 <br> <br/>
-
 y quité:
 
 ```bat
