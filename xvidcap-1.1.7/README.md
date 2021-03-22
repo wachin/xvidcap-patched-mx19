@@ -193,22 +193,20 @@ Quité:
 #include <glib/gerror.h>
 ```
 
-```bat
+**Parche "xvidcap-1.1.7-shmstr.patch"**
 
+En el archivo:
+
+**/src/capture.c**
+
+quité:
+
+```bat
+#include <X11/extensions/shmstr.h>
 ```
 
-```bat
-
-```
+y en su lugar puse:
 
 ```bat
-
-```
-
-```bat
-
-```
-
-```bat
-
+#include <X11/extensions/shmproto.h>
 ```
