@@ -45,7 +45,7 @@
 #include <locale.h>
 
 #ifdef USE_FFMPEG
-#include <ffmpeg/avcodec.h>
+#include <avcodec.h>
 #endif     // USE_FFMPEG
 
 #include "control.h"

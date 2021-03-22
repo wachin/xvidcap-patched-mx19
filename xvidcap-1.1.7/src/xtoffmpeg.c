@@ -56,13 +56,13 @@
 #include "xvidcap-intl.h"
 
 // ffmpeg stuff
-#include <ffmpeg/avcodec.h>
-#include <ffmpeg/avformat.h>
-#include <ffmpeg/avdevice.h>
+#include <avcodec.h>
+#include <avformat.h>
+#include <avdevice.h>
 //#include <ffmpeg/dsputil.h>
-#include <ffmpeg/swscale.h>
-#include <ffmpeg/rgb2rgb.h>
-#include <ffmpeg/fifo.h>
+#include <swscale.h>
+#include <rgb2rgb.h>
+#include <fifo.h>
 #define swscale_isRGB(x) ((x)==PIX_FMT_BGR32 || (x)==PIX_FMT_RGB24 \
                         || (x)==PIX_FMT_RGB565 || (x)==PIX_FMT_RGB555 \
                         || (x)==PIX_FMT_RGB8 || (x)==PIX_FMT_RGB4 \
