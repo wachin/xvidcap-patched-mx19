@@ -289,7 +289,6 @@ LIBS="-lXext -lX11" ./configure --with-x --enable-libmp3lame --enable-libtheora 
 make
 sudo make install
 </code>
-
 <br> <br/>
 Run with this example:
 
