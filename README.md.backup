@@ -289,8 +289,9 @@ LIBS="-lXext -lX11" ./configure --with-x --enable-libmp3lame --enable-libtheora 
 make
 sudo make install
 </code>
-<br> <br/>
+
 Run with this example:
+
 
 <code>
 padsp xvidcap --audio yes --cap_geometry 1280x720[+200+200] --fps 30 --quality 100 --file "Su video.mov"
